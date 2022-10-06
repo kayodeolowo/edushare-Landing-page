@@ -53,25 +53,87 @@ const Learn = () => {
 
     <div className=' md:flex md:justify-between md:flex-row flex flex-col'> 
        <h1 className='mt-10 text-2xl md:w-1/2 md:text-4xl font-bold text-center lg:text-start '> How our online public schools works </h1>
-        <button className='border-2 border-blue-500 px-4  py-2 h-10 mx-32 md:mx-0 md:mt-16  text-center rounded-lg mt-4  '> View all courses </button> 
+        <button className='border-2 border-blue-500 px-4  py-2 h-10  mx-auto items-center md:mx-0 md:mt-16  text-center rounded-lg mt-4  '> View all courses </button> 
     </div>
 
-    <div>
-        <div className='w-1/2 mt-10 mx-auto'>
-            <img src="./image/data.png"/>
-            <h1 className='font-bold text-xl w-3/4 mt-4'> Hands- On Python & R in Data Science </h1>
-            <div className='flex justify-between mt-2'> 
-                <div className='flex'> 
-                     <img className='h-5' src='./image/people.png' alt=''/>
-                     <h2> 1,45,690 </h2>
-                </div>
-                 <div className='flex'> 
-                    <img className='h-5' src='./image/time.png' alt=''/>
-                    <h2> 4 months </h2>
+    <div className='md:flex md:justify-between '>
+         <div className='w-3/4 mt-10 md:w-[220px] mx-auto md:mx-0'>
+            <div className='flex flex-col'> 
+                <img className='md:image-cover' src="./image/data.png"/>
+                <h1 className='font-bold text-xl w-3/4 mt-4  md:text-base md:w-full'> Hands- On Python & R in Data Science </h1>
+                <div className='flex justify-between mt-2'>     
+            </div> 
+              <div className='flex justify-between mt-4'> 
+                        <div className='flex'> 
+                            <img className='h-5 mt-1' src='./image/people.png' alt=''/>
+                            <h2 className='ml-1'> 1,45,690 </h2>
+                        </div>
+                        <div className='flex'> 
+                            <img className='h-5 mt-1' src='./image/time.png' alt=''/>
+                            <h2 className='ml-1'> 4 months </h2>
+                        </div>
                  </div>
             </div>
-            <button className='flex border-2 w-full  mt-6 border-[#2076FF] rounded-lg py-1 text-center text-[#2076FF] '> <span> <img className='h-5' src='./image/Buy.png ' alt=''/> </span>  Add to cart  </button>
+
+            <div className=' border-[#2076FF]  flex justify-center space-x-4 border-2 rounded-lg mt-4 md:mt-6 '> 
+                   <span> <img className='h-5 mt-2' src='./image/Buy.png ' alt=''/> </span>          <button className=' py-1 text-center text-[#2076FF] '>  Add to cart  </button>
+
+            </div>
+
         </div>
+
+
+          <div className='w-3/4 mt-10 md:w-[220px] mx-auto  md:mx-0'>
+            <div className='flex flex-col'> 
+                <img className='md:image-cover' src="./image/data.png"/>
+                <h1 className='font-bold text-xl w-3/4 mt-4  md:text-base md:w-full'> Science and Machine Learning Bootcamp </h1>
+                <div className='flex justify-between mt-2'>     
+            </div> 
+              <div className='flex justify-between mt-4'> 
+                        <div className='flex'> 
+                            <img className='h-5 mt-1' src='./image/people.png' alt=''/>
+                            <h2 className='ml-1'> 1,45,690 </h2>
+                        </div>
+                        <div className='flex'> 
+                            <img className='h-5 mt-1' src='./image/time.png' alt=''/>
+                            <h2 className='ml-1'> 4 months </h2>
+                        </div>
+                 </div>
+            </div>
+
+            <div className=' border-[#2076FF]  flex justify-center space-x-4 border-2 rounded-lg mt-4 md:mt-6 '> 
+                   <span> <img className='h-5 mt-2' src='./image/Buy.png ' alt=''/> </span>          <button className=' py-1 text-center text-[#2076FF] '>  Add to cart  </button>
+
+            </div>
+
+        </div>
+
+          <div className='w-3/4 mt-10 md:w-[220px] mx-auto  md:mx-0'>
+            <div className='flex flex-col'> 
+                <img className='md:image-cover' src="./image/data.png"/>
+                <h1 className='font-bold text-xl md:text-base md:w-full w-3/4 mt-4'> The Python Mega Course:Real Applications </h1>
+                <div className='flex justify-between mt-2'>     
+            </div> 
+              <div className='flex justify-between mt-4'> 
+                        <div className='flex'> 
+                            <img className='h-5 mt-1' src='./image/people.png' alt=''/>
+                            <h2 className='ml-1 '> 1,45,690 </h2>
+                        </div>
+                        <div className='flex'> 
+                            <img className='h-5 mt-1 ' src='./image/time.png' alt=''/>
+                            <h2 className='ml-1'> 4 months </h2>
+                        </div>
+                 </div>
+            </div>
+
+            <div className=' border-[#2076FF]  flex justify-center space-x-4 border-2 rounded-lg mt-4 md:mt-6 '> 
+                   <span> <img className='h-5 mt-2' src='./image/Buy.png ' alt=''/> </span>          <button className=' py-1 text-center text-[#2076FF] '>  Add to cart  </button>
+
+            </div>
+
+        </div>
+
+        
     </div> 
 
   </section>
